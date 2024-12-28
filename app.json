@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "Shawn-MD",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -20,7 +20,7 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "choose your prefix for keith. To prevent errors and confusion you must set a prefix",
+      "description": ".",
       "value": ".",
       "required": true
     },
@@ -50,8 +50,8 @@
    
     },
     "CODE": {
-      "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if commanded",
-      "value": "254",
+      "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if command",
+      "value": "254756856825",
       "required": true
     },
     "STICKER_AUTHOR": {
@@ -66,7 +66,7 @@
     },
     "BOTNAME": {
       "description": "Enter name for your bot,,you can change this.",
-      "value": "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
+      "value": "Shawn-𝐌𝐃",
       "required": false
     },
     "GC_PRESENCE": {
@@ -74,7 +74,7 @@
       "required": false
     },
     "SESSION": {
-      "description": "Paste the session id that you received in whatsapp after linking the bot. It's used for authentication.",
+      "description": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib05VOCtQNEdqcWpQeVhNQTlmR1c1djUyTDVxcm9RK2dSKzEyakNoMXJHaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicnRyZTQ3TjlsS1l5cXpsU3dSR1ZCQyt2TnYzYTFOZVRSdStFL24vMmpqaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZSmlQRmJ1U1UyZ2JxczNhTEFxcW1uZ3EvKzhiUGRIZ3lqVDNIMDNmQ1VZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKZE05SHdUanZqMkN3UFpkY3VZREtVSVhURlVJMjNReDg3TU0rYWt5R3d3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNKWjNBbnVZNWZoYzdtS09mdk1Id1pyYklXeWxaUFdYVy9BSEpnTEZSSGc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImU1QXJYS3h2dkFwK0dUZ0dYdktBUTJHMkx6SERWbGlLTDBnT2doZTZ3Q009In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUdrZEJsZ3VTenlPSWpqQlF1YzZhQjRONHBzL0Z2QWtRV2tnaUZ5TFNFWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTXBOUjdTcmZNekxRWFBud0JTSDZtZHRvSHBPTU5VS3JPSUIwaTFvVGtVRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNlTHJ2ZDgycnNhTlhyT0did2dwNExTOUtQdWV5WTMzSzZUbFVqR0lHS1NhSzN3TG1HdEhVUW1OUFF5elFhWEkxNXlLY0MyVS9yQUJYVU44SVYydWdnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTcyLCJhZHZTZWNyZXRLZXkiOiJVbWRqTTM0NU8wVGVyajhGTnJNb3JJTWlpS3ZmZkVrNDdGSkY1MnlMbkwwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJhY2Y4clNOdFJJLTUxNGtOTThiWkR3IiwicGhvbmVJZCI6ImY4ZGI3MDdkLTIzNDYtNDQ5Zi1hMWM2LTY0MGE0YjE5NmY2OCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ2L3N2QkJwUGc3MGptcXh3T0pURWU1RC9RSm89In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZzNud0c0MU84ZFJmM28yYVRQQlozSm8wZ0p3PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkhRMktWMzhXIiwibWUiOnsiaWQiOiIyNTQ3NTY4NTY4MjU6N0BzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJfU2hhd25fIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKK1JoZEFHRUpybHY3c0dHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJhMmRhZ29XeERRV01oRkpqb2lEUkhtZzZXeDYzZTJVR1NDMkJZTnlXOUgwPSIsImFjY291bnRTaWduYXR1cmUiOiJxS2pRZWp1TG9vRnFEa25rWkpEOVdCQlJFVUppY1NCMkg3dUtnREVuVnByQmwxaVJuaGpjM3BvVHR0d2prUFo4NXR6L2E5R1EzSDZVUUZQTUpQQ2pDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiYVpxNm5pQVlPVkpUelJJbFBZL2NPTVJCaUQ5Z2ttMTVsQ2hWazhoU1k1Z1Ewc3IyZnZCYXE2bkRUcDQrcHZIRlBDWXRoK3dqTzdGQmg2RVV4NTJyaVE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQ3NTY4NTY4MjU6N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJXdG5Xb0tGc1EwRmpJUlNZNklnMFI1b09sc2V0M3RsQmtndGdXRGNsdlI5In19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM1Mzg5ODYzfQ==",
       "required": true
     },
     "AUTOVIEW_STATUS": {
